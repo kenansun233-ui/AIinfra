@@ -104,8 +104,13 @@ if __name__ == "__main__":
 
     result = analyze_log(log_address)
 
-    print(result)
-    print(f"p95_ms: {result['p95_ms']:.2f}")
+print(f"total_number: {result['total_number']}")
+print(f"valid_requests: {result['valid_requests']}")
+print(f"invalid_lines: {result['invalid_lines']}")
+print(f"mean_ms: {result['mean_ms']:.2f}")
+print(f"p50_ms: {result['p50_ms']:.2f}")
+print(f"p95_ms: {result['p95_ms']:.2f}")
+print(f"error_rate: {result['error_rate']:.2%}")
     
     #unordered_map<string, double> result;
     #result["p95_ms"]
