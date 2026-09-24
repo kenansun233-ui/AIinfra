@@ -1,0 +1,28 @@
+# Python 运行产生的缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest 缓存
+.pytest_cache/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Benchmark 自动生成的大日志文件
+week1/bench/*.log
+week-01/bench/*.log
+
+# 临时文件
+*.tmp
+*.temp
