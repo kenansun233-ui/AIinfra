@@ -20,8 +20,8 @@ env/
 Thumbs.db
 
 # Benchmark 自动生成的大日志文件
-week1/bench/*.log
-week-01/bench/*.log
+*.log
+
 
 # 临时文件
 *.tmp
